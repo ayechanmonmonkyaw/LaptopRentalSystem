@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.welcome {
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1rem;
+  padding: 0 5%;
+}
+.welcome .text-align-right {
+  text-align: right;
+}
+
+@media screen and (max-width: 992px) {
+  .welcome {
+    text-align: left;
+  }
+  .welcome .text-align-right {
+    text-align: left;
+  }
+}
+.hero {
+  height: 100vh;
+  background: url("../images/slider1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 500px;
+}
+.hero .content {
+  padding-top: 20%;
+}
+.hero .btn {
+  background: rgb(66, 128, 66);
+  color: white;
+  font-weight: 600;
+  padding: 14px 16px;
+}
+
+.welcomeContent {
+  position: relative;
+  background: url("images/about-bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.welcomeContent .author .author-img {
+  display: inline-block;
+}
+.welcomeContent .author .author-img img {
+  width: 60px;
+  height: 65px;
+  border-radius: 100%;
+}
+.welcomeContent .author .author-about {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 1rem;
+}
+
+.doctors {
+  width: 85%;
+}
+.doctors .team-contact-info {
+  padding-top: 1.2em;
+  margin-bottom: 1.5em;
+  margin-left: 1em;
+}
+
+.div-news {
+  background-color: #e9e9e9;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.div-news .news {
+  width: 85%;
+}
+.div-news .news .card {
+  border-radius: 20px;
+}
+.div-news .news .news-img {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  min-height: 65px;
+  border-radius: 20px;
+}
+.div-news .news .author .author-img {
+  display: inline-block;
+}
+.div-news .news .author .author-img img {
+  width: 60px;
+  height: 65px;
+  border-radius: 100%;
+}
+.div-news .news .author .author-about {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 1rem;
+}
+
+.appointment {
+  margin-bottom: 3%;
+}
+.appointment .img-appointment {
+  display: block;
+}
+.appointment .img-appointment img {
+  width: 75%;
+  height: auto;
+}
+.appointment .box {
+  margin-top: 3%;
+}
+.appointment .box h1 {
+  font-size: 4rem;
+}
+.appointment .box label {
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+.appointment .box input {
+  padding: 12px 14px;
+}
+.appointment .box .btn {
+  background: #a5c422;
+  color: white;
+  font-weight: 600;
+  height: 55px;
+}
+.appointment .box .btn:hover {
+  background: rgb(53, 7, 53);
+}
+
+.footer {
+  margin-bottom: 5%;
+}
+.footer .author .author-img {
+  display: inline-block;
+}
+.footer .author .author-img img {
+  width: 60px;
+  height: 65px;
+  border-radius: 100%;
+}
+.footer .author .author-about {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 1rem;
+}
+.footer .footer-a a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: #858585;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.footer .copy-right {
+  color: #858585;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+nav li {
+  padding: 10px 10px;
+}
+nav .btn {
+  background: #a5c422;
+  color: white;
+  font-weight: 600;
+  padding: 14px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}

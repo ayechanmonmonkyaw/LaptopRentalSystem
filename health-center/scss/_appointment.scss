@@ -1,0 +1,32 @@
+.appointment{
+  margin-bottom: 3%;
+  .img-appointment{
+    display: block;
+    img{
+      width: 75%;
+      height: auto;
+    }
+  }
+  .box{
+    h1{
+      font-size: 4rem;
+    }
+    margin-top: 3%;
+    label{
+      margin-bottom: 3%;
+      margin-top: 2%;
+    }
+    input{
+      padding: 12px 14px;
+    }
+    .btn{
+      background: #a5c422;
+      color: white;
+      font-weight: 600;
+      height: 55px;
+    }
+    .btn:hover{
+      background: rgb(53, 7, 53);
+    }
+  }
+}

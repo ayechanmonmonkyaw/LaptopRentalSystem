@@ -1,0 +1,19 @@
+
+.welcome{
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 0 5%;
+    
+    .text-align-right{
+        text-align: right;
+    }
+}
+@media screen and (max-width:992px) {
+    .welcome{
+       text-align: left;
+       .text-align-right{
+        text-align: left;
+       }
+    }
+}

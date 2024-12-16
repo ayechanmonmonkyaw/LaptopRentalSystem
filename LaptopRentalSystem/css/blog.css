@@ -1,0 +1,16 @@
+.con1{
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
+.heading , .image{
+    margin-top: 2%;
+}
+img{
+    border-radius: 5px;
+    max-width: 450px;
+}
+.fs-5{
+    text-align: justify;
+    width: 75%;
+    line-height: 2;
+}
